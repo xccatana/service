@@ -6,7 +6,6 @@ pipeline {
         gradle 'gradle-8'
     }
 
-    // comment
     environment {
         DOCKER_HUB_USERNAME = 'xccatana'
         DOCKER_PASSWORD = credentials('docker_password')
